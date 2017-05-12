@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Rule</class>
+ <widget class="QWidget" name="Rule">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>351</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Цель игры - набрать 1000 очков.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;Чтобы начать игру необходимо накидать 50 очков(вход в игру). Кубики сначала кидают все 5 штук. Например выпало 1,5,2,2,6 – это 15 очков. 1 и 5 откладывают, а остальные кидают. Если ничего не выпало – пишут болт, а если все 5 кубиков были накиданы, то можно кинуть их все и то что выпало приплюсовать к тому что уже накидали или же можно записать их. Далее игрок сам решает кидать еще или записать в таблицу.&lt;br /&gt;Если во время игры с первого броска не выпало нисколько очков, то игроку пишут прочерк(болт). Если игрок набрал 3 болта, то его очки сбрасываются до нуля. &lt;br /&gt;После того как один из игроков все же прошел «вход игру» он должен пройти 2 бочки: первая с 400 до 450, вторая с 880 до 1000.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;Пример прохождения одной из бочек(400-450):&lt;br /&gt;У игрока 395 очков.&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1) Он кидает кубики, ему выпало 60. Он может кидать дальше, а может записать и у него будет  455 очков, тогда он выйдет с бочки.&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2) Ему выпало 10 очков, записать он 405 не может и кидает дальше. Если ничего не выпало, записывается 400 и ход оканчивается. Болты на бочке не ставятся. &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;При наборе игроком 555 очков(самосвал) его очки сбрасываются до нуля. И снова нужно пройти бочку 0-50.&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Как считать очки:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Единица – это 10 очков. Пятерка – 5 очков.&lt;br /&gt;Комбинация кубиков выпавших за один бросок:&lt;br /&gt;Три единицы – 100 очков. 4 единицы – 400 очков. 5 – 1000.&lt;br /&gt;3 двойки – 20, 4 двойки – 80, 5 двоек -200.&lt;br /&gt;3 тройки - 30, 4 тройки - 120, 5 троек – 300&lt;br /&gt;Четверки: 3 – 40, 4 – 160, 5 – 400.&lt;br /&gt;Пятерки: 3 – 50, 4 – 200, 5 – 500.&lt;br /&gt;Шестерки: 3 – 60, 4 – 240, 5 – 600.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>230</y>
+     <width>121</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ок, назад</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
